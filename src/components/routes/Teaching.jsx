@@ -72,7 +72,11 @@ export const Teaching = () => {
           harder—for them to participate and be successful in the course.
         </p>
       </motion.div>
+      <div className="footer-big">
+
+     
       <Footer />
+      </div>
     </motion.section>
   );
 };
