@@ -1,29 +1,18 @@
 import React from "react";
 import "./Contact.css";
-import { motion } from "framer-motion";
+
 import { Link } from "react-router-dom";
 export const Contact = () => {
   return (
-    <article id="contact" className="contact">
+    <article id="contact" className="contact"
+   
+      >
       <div class="container-form">
         <span class="big-circle"></span>
 
-        <motion.div
+        <div
           class="form"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.1 }}
-          transition={{ delay: 0.2, duration: 1 }}
-          variants={{
-            hidden: {
-              opacity: 0,
-              scale: 0,
-            },
-            visible: {
-              opacity: 1,
-              scale: 1,
-            },
-          }}
+         
         >
           <div class="contact-info">
             <div class="info-form">
@@ -100,7 +89,7 @@ export const Contact = () => {
               <input type="submit" value="Send" class="btn" />
             </form>
           </div>
-        </motion.div>
+        </div>
       </div>
     </article>
   );

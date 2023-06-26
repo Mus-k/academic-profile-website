@@ -225,12 +225,14 @@ textarea.input {
 
   .contact-info:before {
     bottom: initial;
+    display: none;
     top: -75px;
     right: 65px;
     transform: scale(0.95);
   }
 
   .contact-form:before {
+    display: none;
     top: -13px;
     left: initial;
     right: 70px;
@@ -250,6 +252,11 @@ textarea.input {
   }
 }
 
+@media screen and (max-width:600px){
+ .contact-info{
+    display: none;
+  }
+}
 @media (max-width: 480px) {
   .container {
     padding: 1.5rem;
