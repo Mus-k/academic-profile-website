@@ -1,0 +1,10 @@
+
+
+
+
+@media screen and (min-width: 1550px) {
+    .home-section {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+  }
